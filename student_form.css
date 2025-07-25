@@ -1,0 +1,61 @@
+#caption{
+    font-size: 20px;
+    font-family:sans-serif ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-image: url('pexels-olly-37725112.jpg');
+    background-size: cover;
+
+}
+form{
+    border: solid;
+    border-radius: 20px;
+    border-color: aqua;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 50%;
+}
+hr{
+    width: 320px;
+}
+.la{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+.la:focus {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+button{
+    margin: 30px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(0, 133, 156);
+    color: aliceblue;
+}
+#result{
+    margin-right: 50%;
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(255, 35, 79);
+    font-weight: bold;
+}

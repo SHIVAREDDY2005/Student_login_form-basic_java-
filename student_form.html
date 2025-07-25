@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="student_form.js" defer></script>
+    <link rel="stylesheet" href="student_form.css">
+</head>
+<body>
+    
+    <center>
+        <form onsubmit="return validation(event)">
+            <div id="caption">Student Registration</div>
+            <hr>
+            <br>
+            <label  for="name">Student Name :</label>
+            <input class="la" type="text" id="name" name="name"  placeholder="Enter name"><br>
+            <label for="email">Email Address :</label>
+            <input class="la" id="email" name="email"  type="text" placeholder="Enter email @gmail.com"><br>
+            <label for="contact">Phone Number :</label>
+            <input class="la" id="contact" name="contact" type="text" placeholder="Student number">
+            <br>
+            <button id="register"  type="submit">Register</button> 
+        </form>
+        <div id="result"></div>
+    </center>
+</body>
+</html>
